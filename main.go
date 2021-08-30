@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"yingyi.cn/go-universal/crypt"
-	"yingyi.cn/go-universal/db"
-	"yingyi.cn/go-universal/email"
-	"yingyi.cn/go-universal/http"
-	"yingyi.cn/go-universal/rcache"
-	"yingyi.cn/go-universal/websockets"
+	"github.com/yongjie0203/go-universal/crypt"
+	"github.com/yongjie0203/go-universal/db"
+	"github.com/yongjie0203/go-universal/email"
+	"github.com/yongjie0203/go-universal/http"
+	"github.com/yongjie0203/go-universal/rcache"
+	"github.com/yongjie0203/go-universal/websockets"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module yingyi.cn/go-universal
+module github.com/yongjie0203/go-universal
 
 go 1.16
 

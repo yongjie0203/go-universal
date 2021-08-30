@@ -1,11 +1,11 @@
 package db
 
 import (
+	"github.com/yongjie0203/go-universal/rcache"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 	"log"
-	"yingyi.cn/go-universal/rcache"
 )
 
 var Coon *gorm.DB

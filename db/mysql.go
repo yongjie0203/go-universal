@@ -11,7 +11,7 @@ import (
 var Coon *gorm.DB
 
 func InitDB() *gorm.DB {
-	dsn := "root:root@(127.0.0.1:3310)/trade?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := "root:root@(175.0.0.10:3310)/trade?charset=utf8mb4&parseTime=True&loc=Local"
 
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{
 		NamingStrategy: schema.NamingStrategy{
